@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"; // นำเข้า useState และ useEffect จาก React
 import "../App.css";
 import { useNavigate, useParams } from "react-router-dom";
-import { useAuthContext } from "../contexts/StoreContext"; // นำเข้า AuthContext
+import { useAuthContext } from "../Contexts/StoreContext"; // นำเข้า AuthContext
 import Swal from "sweetalert2";
 import Tokenservice from "../services/token.services"; // นำเข้า Tokenservice
 

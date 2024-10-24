@@ -3,7 +3,7 @@ import Header from "./Header";
 import UserProfile from "./UserProfile";
 import RegisterButton from "./RegisterButton";
 import LoginButton from "./LoginButton"; // เปลี่ยนจาก loginButton เป็น LoginButton
-import { useAuthContext } from "../contexts/StoreContext";
+import { useAuthContext } from "../Contexts/StoreContext";
 
 const Navbar = () => {
   const { currentUser, logout } = useAuthContext(); // ใช้ currentUser แทน user

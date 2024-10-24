@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, Circle } from "react-leaflet";
-import axios from "axios";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import Swal from "sweetalert2";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AuthService from "../services/auth.services";
-import { useAuthContext } from "../Contexts/StoreContext"; // ใช้ useCourse แทน
+import { useAuthContext } from "../contexts/StoreContext"; // ใช้ useCourse แทน
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
